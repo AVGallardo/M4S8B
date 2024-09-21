@@ -24,6 +24,12 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int opcion;
 
+        System.out.println("Ingrese su nombre: ");
+        String nombre = scanner.nextLine();
+        System.out.println("Ingrese su rut: ");
+        String rut = scanner.nextLine();
+        System.out.println("Bienvenide " + nombre );
+
         do {
             System.out.println("---- MENÚ ----");
             System.out.println("1. Listar productos disponibles");
